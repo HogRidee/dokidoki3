@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 30: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-        player "No te preocupes, la culpa fue mía jaja... Por casualidad, ¿sabes dónde queda...?
+File "game/script.rpy", line 43: end of line expected.
+    show x at xpos 0.2
+                   ^
+
+File "game/script.rpy", line 48: end of line expected.
+    show y at xpos 0.8
+                   ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Fri Oct 11 20:37:55 2024
+Sat Oct 12 12:14:41 2024
