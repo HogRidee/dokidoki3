@@ -2,13 +2,41 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 43: end of line expected.
-    show x at xpos 0.2
-                   ^
+File "game/script.rpy", line 12: end of line expected.
+    show player normal at xpos 0.8
+                               ^
 
-File "game/script.rpy", line 48: end of line expected.
-    show y at xpos 0.8
-                   ^
+File "game/script.rpy", line 22: end of line expected.
+    show player avergonzado at xpos 0.8
+                                    ^
+
+File "game/script.rpy", line 32: end of line expected.
+    show player normal at xpos 0.8
+                               ^
+
+File "game/script.rpy", line 44: end of line expected.
+    show player normal at xpos 0.8
+                               ^
+
+File "game/script.rpy", line 59: end of line expected.
+    show player normal at xpos 0.8
+                               ^
+
+File "game/script.rpy", line 64: end of line expected.
+    show player normal at xpos 0.8
+                               ^
+
+File "game/script.rpy", line 74: end of line expected.
+    show player triste at xpos 0.8
+                               ^
+
+File "game/script.rpy", line 79: end of line expected.
+    show player triste at xpos 0.8
+                               ^
+
+File "game/script.rpy", line 84: end of line expected.
+    show player triste at xpos 0.8
+                               ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Sat Oct 12 12:14:41 2024
+Sun Nov 24 18:11:38 2024

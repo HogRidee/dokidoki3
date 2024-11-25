@@ -1,24 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 10, in script
-    poppy "ah~ estoy tan emocionado por este primer día, es un nuevo empezar y estoy seguro que me irá genial----"
-Exception: Sayer 'poppy' is not defined.
+  File "game/script.rpy", line 161, in script
+    player "Supongo que no…" (murmuré)
+  File "game/script.rpy", line 161, in <module>
+    player "Supongo que no…" (murmuré)
+NameError: name 'murmuré' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 10, in script
-    poppy "ah~ estoy tan emocionado por este primer día, es un nuevo empezar y estoy seguro que me irá genial----"
-  File "C:\Users\ivana\OneDrive\Documentos\Ivan\Desarrollo de videojuegos\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+  File "game/script.rpy", line 161, in script
+    player "Supongo que no…" (murmuré)
+  File "C:\Users\Iván\Documents\Iván\Desarrollo de videojuegos\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
     Say.execute(self)
-  File "C:\Users\ivana\OneDrive\Documentos\Ivan\Desarrollo de videojuegos\renpy-8.3.2-sdk\renpy\ast.py", line 575, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\ivana\OneDrive\Documentos\Ivan\Desarrollo de videojuegos\renpy-8.3.2-sdk\renpy\ast.py", line 464, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'poppy' is not defined.
+  File "C:\Users\Iván\Documents\Iván\Desarrollo de videojuegos\renpy-8.3.2-sdk\renpy\ast.py", line 601, in execute
+    args, kwargs = self.arguments.evaluate()
+  File "C:\Users\Iván\Documents\Iván\Desarrollo de videojuegos\renpy-8.3.2-sdk\renpy\parameter.py", line 503, in evaluate
+    value = renpy.python.py_eval(v, locals=scope)
+  File "C:\Users\Iván\Documents\Iván\Desarrollo de videojuegos\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Iván\Documents\Iván\Desarrollo de videojuegos\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 161, in <module>
+    player "Supongo que no…" (murmuré)
+NameError: name 'murmuré' is not defined
 
-Windows-10-10.0.22621 AMD64
+Windows-10-10.0.26100 AMD64
 Ren'Py 8.3.2.24090902
 dokidoki3 1.0
-Wed Oct  2 19:53:25 2024
+Sun Nov 24 16:16:34 2024
